@@ -35,7 +35,7 @@ const Homepage = () => {
               View My Work
             </button>
             <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
+              Download CV
             </button>
           </div>
         </div>
