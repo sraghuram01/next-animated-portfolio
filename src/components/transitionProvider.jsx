@@ -1,4 +1,5 @@
 "use client";
+import React from 'react';
 
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./navbar";
@@ -12,7 +13,7 @@ const TransitionProvider = ({ children }) => {
     <AnimatePresence mode="wait">
       <div
         key={pathName}
-        className="w-screen h-screen bg-gradient-to-b from-orange-400 to-red-500"
+        className="w-screen min-h-screen bg-gradient-to-b from-orange-400 to-red-500"
       >
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"

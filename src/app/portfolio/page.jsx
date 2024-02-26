@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
+import { useRouter } from "next/router";
 
 const items = [
   {
@@ -11,7 +12,7 @@ const items = [
     title: "Pennyworth",
     desc: "An educational personal finance platform",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "/portfolio/pennyworth",
   },
   {
     id: 2,
@@ -19,7 +20,7 @@ const items = [
     title: "Bladelink",
     desc: "Designed to make the process of signing up for a barber appointment much more convenient",
     img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "/portfolio/bladelink",
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ const items = [
     title: "Techello",
     desc: "A virtual art gallery ",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "/portfolio/techello",
   },
   {
     id: 4,
@@ -35,7 +36,7 @@ const items = [
     title: "Hugo AI",
     desc: "AI-Powered Medical Assistant",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    link: "/portfolio/hugoai",
   },
 ];
 
