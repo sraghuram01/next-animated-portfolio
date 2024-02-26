@@ -44,7 +44,7 @@ const PennyworthPage = () => {
       <div
         style={{
           minHeight: '100vh',
-          background: 'linear-gradient(to bottom, #FFA500, #FF0000)',
+          background: 'linear-gradient(to bottom, #EF745c, #34073D)',
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
