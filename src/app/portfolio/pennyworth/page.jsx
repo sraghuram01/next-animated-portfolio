@@ -51,6 +51,7 @@ const PennyworthPage = () => {
         <br />
         <p>{bodyText.problem}</p>
         <br />
+        <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" width={450} height={600} />
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
         <br />
         <p>{bodyText.goal}</p>

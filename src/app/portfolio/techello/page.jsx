@@ -46,6 +46,7 @@ const TechelloPage = () => {
         <br />
         <p>{bodyText.problem}</p>
         <br />
+        <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" width={450} height={600} />
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
         <br />
         <p>{bodyText.goal}</p>
