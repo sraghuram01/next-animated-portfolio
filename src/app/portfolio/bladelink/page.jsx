@@ -39,7 +39,8 @@ const BladelinkPage = () => {
       <div
         style={{
           minHeight: '100vh',
-          background: 'linear-gradient(to bottom, #c621e5, #7d7cf9)',
+          background: 'linear-gradient(to bottom, #42047e, #7d7cf9)',
+          color: 'white', // Add this line to change the font color to white
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
