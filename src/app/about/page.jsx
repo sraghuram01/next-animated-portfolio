@@ -41,7 +41,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-             Im a designer based out of Dallas Texas
+             Im a designer based out of Dallas Texas. I enjoy designing intuitive solutions to ambiguous problems 
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -195,20 +195,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Mentor
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
+                    Led a team in the development of an AI-powered application that detects levels of diabetic retinopathy from retina scans.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    August 2023 - December 2023
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    AIS UTD
                   </div>
                 </div>
                 {/* CENTER */}
@@ -238,20 +237,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    Mentee 
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development,
-                    leveraging advanced skills.{" "}
+                   Developed Hugo AI, an application that detects various respiratory illnesse and patient details from chest x-ray images{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    Jan 2023-May 2023{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    AIS UTD
                   </div>
                 </div>
               </div>
@@ -260,26 +258,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
-                  </div>
-                  {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
-                    I provided web solutions, applying a range of technologies
-                    to address client requirements.{" "}
-                  </div>
-                  {/* JOB DATE */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
-                  </div>
-                </div>
-                {/* CENTER */}
-                <div className="w-1/6 flex justify-center">
-                  {/* LINE */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
-                  </div>
+                  
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 "></div>

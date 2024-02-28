@@ -39,7 +39,8 @@ const TechelloPage = () => {
       <div
         style={{
           minHeight: '100vh',
-          background: 'linear-gradient(to bottom, #c621e5, #7d7cf9)',
+          background: 'linear-gradient(to bottom, #171717, #121212, #1B1725)',
+          color:"white",
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>

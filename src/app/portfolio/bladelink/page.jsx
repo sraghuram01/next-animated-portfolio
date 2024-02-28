@@ -39,7 +39,7 @@ const BladelinkPage = () => {
       <div
         style={{
           minHeight: '100vh',
-          background: 'linear-gradient(to bottom, #42047e, #7d7cf9)',
+          background: 'linear-gradient(to bottom, #171717, #121212, #1B1725)',
           color: 'white', // Add this line to change the font color to white
         }}
       >
