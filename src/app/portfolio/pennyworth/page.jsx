@@ -54,7 +54,9 @@ const PennyworthPage = () => {
         <br />
         <p>{bodyText.problem}</p>
         <br />
-        <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" width={450} height={600} />
+        <div style={{ display: "flex", justifyContent: "center", margin: '0 auto'}} >
+        <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" width={550} height={700} />
+        </div>
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
         <br />
         <p>{bodyText.goal}</p>
@@ -80,8 +82,9 @@ const PennyworthPage = () => {
         <br />
         <p>{bodyText.ideation}</p>
         <br />
+        <div style={{ display: "flex", justifyContent: "center"}}>
         <Image src={userFlow} alt="User Flow" width={720} height={480} />
-  
+        </div>
   
   
         <br />
@@ -89,7 +92,7 @@ const PennyworthPage = () => {
         <br />
         <p>{bodyText.prototyping}</p>
         <br />
-        <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto'}}>
+        <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto'}}>
           <br></br>
           <Image src={wireframe1} alt={`Wireframe 1 for Pennyworth`} width={180} height={120} />
           <Image src={wireframe2} alt={`Wireframe 2 for Pennyworth`} width={180} height={120} />
@@ -100,7 +103,7 @@ const PennyworthPage = () => {
           <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.testingStage1}</h2>
           <br />
           <p>{bodyText.testingStage1}</p>
-          <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
+          <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto' }}>
             <Image src={prototype1} alt={`Prototype 1 for Pennyworth`} width={180} height={120} />
             <Image src={prototype2} alt={`Prototype 2 for Pennyworth`} width={180} height={120} />
             <Image src={prototype3} alt={`Prototype 3 for Pennyworth`} width={180} height={120} />
@@ -110,7 +113,7 @@ const PennyworthPage = () => {
           <br />
           <p>{bodyText.testingStage2}</p>
           <br />
-          <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
+          <div style={{ display: "flex", justifyContent: "center", gap:"35px", margin: '0 auto' }}>
             <Image src={mockup1} alt={`Mockup 1 for Pennyworth`} width={180} height={120} />
             <Image src={mockup2} alt={`Mockup 2 for Pennyworth`} width={180} height={120} />
             <Image src={mockup3} alt={`Mockup 3 for Pennyworth`} width={180} height={120} />
@@ -119,7 +122,7 @@ const PennyworthPage = () => {
           </div>
           <br />
         </div>
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.finalDesign}</h2>
+        <h2 style={{ fontWeight: "bold", fontSize: "18px", justifyContent:"center" }}>{headings.finalDesign}</h2>
         <br />
         <p>{bodyText.finalDesign}</p>
         <div>

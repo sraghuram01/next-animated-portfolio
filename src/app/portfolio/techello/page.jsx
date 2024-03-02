@@ -40,14 +40,17 @@ const TechelloPage = () => {
         style={{
           minHeight: '100vh',
           background: 'linear-gradient(to bottom, #171717, #121212, #1B1725)',
-          color:"white",
+          color: 'white', // Add this line to change the font color to white
+          padding:"15px"
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
         <br />
         <p>{bodyText.problem}</p>
         <br />
-        <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" width={450} height={600} />
+        <div style={{ display: "flex", justifyContent: "center", margin: '0 auto'}} >
+          <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" width={450} height={600} />
+        </div>
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
         <br />
         <p>{bodyText.goal}</p>
@@ -58,7 +61,7 @@ const TechelloPage = () => {
         <br />
         <p>{bodyText.research}</p>
         <br />
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", flexDirection: "column" }}>
           <Image src={userPersona1} alt={`User Persona 1 for Techello`} width={450} height={300} />
           <Image src={userPersona2} alt={`User Persona 2 for Techello`} width={450} height={300} />
           <br></br>
@@ -75,7 +78,7 @@ const TechelloPage = () => {
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.prototyping}</h2>
         <br />
         <br />
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
           <Image src={wireframe1} alt={`Wireframe 1 for Techello`} width={180} height={120} />
           <Image src={wireframe2} alt={`Wireframe 2 for Techello`} width={180} height={120} />
           <Image src={wireframe3} alt={`Wireframe 3 for Techello`} width={180} height={120} />
@@ -85,7 +88,7 @@ const TechelloPage = () => {
           <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.testing}</h2>
           <br />
           <p>{bodyText.testing}</p>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
             <Image src={prototype1} alt={`Prototype 1 for Techello`} width={180} height={120} />
             <Image src={prototype2} alt={`Prototype 2 for Techello`} width={180} height={120} />
             <Image src={prototype3} alt={`Prototype 3 for Techello`} width={180} height={120} />

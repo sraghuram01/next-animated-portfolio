@@ -41,7 +41,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-             Im a designer based out of Dallas Texas. I enjoy designing intuitive solutions to ambiguous problems 
+             Im a designer based out of Dallas Texas. I enjoy designing intuitive solutions to ambiguous problems. 
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">

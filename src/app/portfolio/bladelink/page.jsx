@@ -41,13 +41,16 @@ const BladelinkPage = () => {
           minHeight: '100vh',
           background: 'linear-gradient(to bottom, #171717, #121212, #1B1725)',
           color: 'white', // Add this line to change the font color to white
+          padding:"15px"
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
         <br />
         <p>{bodyText.problem}</p>
         <br />
-        <Image src={bladelinkCompetitiveAudit} alt=" Comp Audit" width={450} height={600} />
+        <div style={{ display: "flex", justifyContent: "center", margin: '0 auto'}} >
+          <Image src={bladelinkCompetitiveAudit} alt="Bladelink Comp Audit" width={450} height={600} />
+        </div>
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
         <br />
         <p>{bodyText.goal}</p>
@@ -58,9 +61,15 @@ const BladelinkPage = () => {
         <br />
         <p>{bodyText.research}</p>
         <br />
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
-          <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <div>
+            <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
+          </div>
+          <br></br>
+
+          <div>
+            <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
+          </div>
           <br></br>
         </div>
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.ideation}</h2>
@@ -74,8 +83,10 @@ const BladelinkPage = () => {
         <br />
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.prototyping}</h2>
         <br />
+        <p>{bodyText.prototyping}</p>
         <br />
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto'}}>
+          <br></br>
           <Image src={wireframe1} alt={`Wireframe 1 for Bladelink`} width={180} height={120} />
           <Image src={wireframe2} alt={`Wireframe 2 for Bladelink`} width={180} height={120} />
           <Image src={wireframe3} alt={`Wireframe 3 for Bladelink`} width={180} height={120} />
@@ -85,7 +96,7 @@ const BladelinkPage = () => {
           <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.testing}</h2>
           <br />
           <p>{bodyText.testing}</p>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
             <Image src={prototype1} alt={`Prototype 1 for Bladelink`} width={180} height={120} />
             <Image src={prototype2} alt={`Prototype 2 for Bladelink`} width={180} height={120} />
             <Image src={prototype3} alt={`Prototype 3 for Bladelink`} width={180} height={120} />
