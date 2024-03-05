@@ -62,12 +62,12 @@ const BladelinkPage = () => {
         <p>{bodyText.research}</p>
         <br />
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div>
+          <div style={{ display:"flex", justifyContent:"center"}}>
             <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
           </div>
           <br></br>
 
-          <div>
+          <div style={{ display:"flex", justifyContent:"center"}}>
             <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
           </div>
           <br></br>
@@ -106,7 +106,7 @@ const BladelinkPage = () => {
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.finalDesign}</h2>
         <br />
         <p>{bodyText.finalDesign}</p>
-        <div>
+        <div style={{ display:"flex", justifyContent:"center"}}>
           <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} />
         </div>
         <br />

@@ -47,7 +47,7 @@ const PennyworthPage = () => {
           minHeight: '100vh',
           background: 'linear-gradient(to bottom,#121212 ,#007f5f)',                   
           color: 'white',
-          padding:'15px'
+          padding:'25px'
         }}
       >
         <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
@@ -68,12 +68,12 @@ const PennyworthPage = () => {
         <p>{bodyText.research}</p>
         <br />
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div>
+          <div style={{ display:"flex", justifyContent:"center"}}>
             <Image src={userPersona1} alt={`User Persona 1 for Pennyworth`} width={450} height={300} />
           </div>
           <br></br>
 
-          <div>
+          <div style={{ display:"flex", justifyContent:"center"}}>
             <Image src={userPersona2} alt={`User Persona 2 for Pennyworth`} width={450} height={300} />
           </div>
           <br></br>
@@ -94,9 +94,9 @@ const PennyworthPage = () => {
         <br />
         <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto'}}>
           <br></br>
-          <Image src={wireframe1} alt={`Wireframe 1 for Pennyworth`} width={180} height={120} />
-          <Image src={wireframe2} alt={`Wireframe 2 for Pennyworth`} width={180} height={120} />
-          <Image src={wireframe3} alt={`Wireframe 3 for Pennyworth`} width={180} height={120} />
+          <Image src={wireframe1} alt={`Wireframe 1 for Pennyworth`} width={170} height={110} />
+          <Image src={wireframe2} alt={`Wireframe 2 for Pennyworth`} width={170} height={110} />
+          <Image src={wireframe3} alt={`Wireframe 3 for Pennyworth`} width={170} height={110} />
         </div>
         <br />
         <div>
@@ -104,9 +104,9 @@ const PennyworthPage = () => {
           <br />
           <p>{bodyText.testingStage1}</p>
           <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto' }}>
-            <Image src={prototype1} alt={`Prototype 1 for Pennyworth`} width={180} height={120} />
-            <Image src={prototype2} alt={`Prototype 2 for Pennyworth`} width={180} height={120} />
-            <Image src={prototype3} alt={`Prototype 3 for Pennyworth`} width={180} height={120} />
+            <Image src={prototype1} alt={`Prototype 1 for Pennyworth`} width={170} height={110} />
+            <Image src={prototype2} alt={`Prototype 2 for Pennyworth`} width={170} height={110} />
+            <Image src={prototype3} alt={`Prototype 3 for Pennyworth`} width={170} height={110} />
           </div>
           <br />
           <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.testingStage2}</h2>
@@ -114,18 +114,19 @@ const PennyworthPage = () => {
           <p>{bodyText.testingStage2}</p>
           <br />
           <div style={{ display: "flex", justifyContent: "center", gap:"35px", margin: '0 auto' }}>
-            <Image src={mockup1} alt={`Mockup 1 for Pennyworth`} width={180} height={120} />
-            <Image src={mockup2} alt={`Mockup 2 for Pennyworth`} width={180} height={120} />
-            <Image src={mockup3} alt={`Mockup 3 for Pennyworth`} width={180} height={120} />
-            <Image src={mockup4} alt={`Mockup 4 for Pennyworth`} width={180} height={120} />
-  
+            <Image src={mockup1} alt={`Mockup 1 for Pennyworth`} width={170} height={110} />
+            <Image src={mockup2} alt={`Mockup 2 for Pennyworth`} width={170} height={110} />
+            <Image src={mockup3} alt={`Mockup 3 for Pennyworth`} width={170} height={110} />
+          
+            <Image src={mockup4} alt={`Mockup 4 for Pennyworth`} width={170} height={110} />
+
           </div>
           <br />
         </div>
         <h2 style={{ fontWeight: "bold", fontSize: "18px", justifyContent:"center" }}>{headings.finalDesign}</h2>
         <br />
         <p>{bodyText.finalDesign}</p>
-        <div>
+        <div style={{ display:"flex", justifyContent:"center"}}>
           <Image src={pennyworthGif} alt="Pennyworth Gif" width={180} height={120} />
         </div>
         <br />
