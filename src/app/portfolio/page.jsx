@@ -11,7 +11,7 @@ const items = [
     color: "from-green-300 to-orange-300",
     title: "Pennyworth",
     desc: "An educational personal finance platform",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/Pennyworth3dMockup.png",
     link: "/portfolio/pennyworth",
   },
   {
@@ -19,7 +19,7 @@ const items = [
     color: "from-yellow-500 to-violet-300",
     title: "Bladelink",
     desc: "Designed to make the process of signing up for a barber appointment much more convenient",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/bladelink3dmockup.png",
     link: "/portfolio/bladelink",
   },
   {
@@ -85,7 +85,7 @@ const PortfolioPage = () => {
         </div>
       </div>
       <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+        <h1 className="text-8xl">More projects are in the making</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}

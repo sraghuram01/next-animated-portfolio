@@ -41,11 +41,14 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-             Im a designer based out of Dallas Texas. I enjoy designing intuitive solutions to ambiguous problems. 
+             
+I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration in crafting user-centered solutions that tackle complex challenges. With a keen eye for detail and a drive for innovation, I thrive on creating intuitive and visually appealing designs that enhance user experiences. Beyond design, I'm constantly exploring new avenues for creativity and growth, whether it's through experimenting with different mediums or immersing myself in diverse cultural experiences. 
             </p>
-            {/* BIOGRAPHY QUOTE */}
+            <h1 className=" font-bold text-white text-2xl">Education</h1>
+            <h2 className=" font-semibold text-white text-xl">University of Texas at Dallas</h2>
+            {/* Degree */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            B.S. Cognitive Science (Psychology and Human Computer Interaction)
             </span>
           
         
@@ -250,7 +253,9 @@ const AboutPage = () => {
                 <div className="w-1/3 "></div>
               </div>
             </motion.div>
+          
           </div>
+           
         </div>
         {/* SVG CONTAINER */}
         <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2">

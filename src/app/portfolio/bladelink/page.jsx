@@ -13,108 +13,99 @@ import prototype3 from '../../../../public/BladelinkPrototype3.png';
 import bladelinkGif from '../../../../public/BladelinkMobile.gif';
 
 const BladelinkPage = () => {
-    const headings = {
-      problem: "Problem",
-      goal: "Goal",
-      research: "Research",
-      ideation: "Ideation",
-      prototyping: "Prototyping",
-      testing: "Testing",
-      finalDesign: "Final Design",
-      reflection: "Reflection",
-    };
-  
-    const bodyText = {
-      problem: "The existing approach to signing up and preparing for an appointment with the barber requires the extensive use of various platforms, making it overwhelming for people to book their barber directly. This often leads to confusion and frustration among users, as they must juggle multiple platforms to achieve a single goal. Additionally, the lack of a centralized platform makes it difficult for users to find reliable information about barbers and their services. This problem is further exacerbated by the inconsistency in information across different platforms which also contributes to the users’ frustrations.",
-      goal: "The goal of Bladelink is to simplify and optimize the process of finding and booking a barber or stylist, eliminating the need for users to use multiple platforms for different purposes and ensuring that the information on the platform is accurate and consistent and streamlining the process to make it convenient.",
-      research: "User interviews and market research were conducted across multiple platforms that serve this purpose. The research showed that the target audience faced the inconvenience of using multiple platforms for different purposes, only to get unsatisfactory results. The information on these platforms didn't correspond, making the process of connecting with a barber more challenging. Based on this research, the team identified the need for a platform that consolidates various features and streamlines the process for choosing a style, choosing a barber in your area, and signing up for an appointment.",
-      ideation: "The goal was to create a simple yet intuitive interface that not only consolidated various features but also optimized the process for choosing a style, choosing a barber in your area, and signing up for an appointment. After brainstorming for ideas, it was decided that a mobile design approach would be the best method of implementation due to the high percentage of users who preferred to have a mobile platform.  Below is a user journey map depicting how a user would navigate the app.",
-      prototyping: "Below are 3 wireframes that served as an essential tool in designing the structure of the app",
-      testing: "User testing sessions were conducted to gather feedback on the initial prototype. Additionally, a user who is a stylist mentioned that the platform's appointment process made it easier for them to manage their appointments and connect with customers. A streamlined approach from choosing a hairstyle to checking in was shown to be considerably more efficient. The gradient theme and contrasting color of the iconography received positive feedback since it enhanced the visibility of the interface which helped in the accessibility of different parts in the platform with ease. ",
-      finalDesign: "The goal for the final prototype was to utilize the feedback we got from our testing phase and expand upon it in the app. One such thing we expanded on was the color scheme to further enhance visibility while keeping the same theme which the user's preferred.",
-      reflection: "Currently, the possibility of adding a direct message feature to provide users with better outreach is being explored. The product’s services are being explored to expand beyond barbers to other cosmetic services. Implementing payment systems using platforms like Venmo, Zelle, and CashApp is also under consideration to push for an even more streamlined approach to the sign-up process. Additionally a web-platform is currently being designed to serve as a flexible way for both mobile and desktop users to use Bladelink and its features."
-    };
-  
-    return (
-      <div
-        style={{
-          minHeight: '100vh',
-          background: 'linear-gradient(to bottom, #171717, #121212, #1B1725)',
-          color: 'white', // Add this line to change the font color to white
-          padding:"15px"
-        }}
-      >
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.problem}</h2>
-        <br />
-        <p>{bodyText.problem}</p>
-        <br />
-        <div style={{ display: "flex", justifyContent: "center", margin: '0 auto'}} >
+  const headings = {
+    problem: "Problem",
+    goal: "Goal",
+    research: "Research",
+    ideation: "Ideation",
+    prototyping: "Prototyping",
+    testing: "Testing",
+    finalDesign: "Final Design",
+    reflection: "Reflection",
+  };
+
+  const bodyText = {
+    problem: "The existing approach to signing up and preparing for an appointment with the barber requires the extensive use of various platforms, making it overwhelming for people to book their barber directly. This often leads to confusion and frustration among users, as they must juggle multiple platforms to achieve a single goal. Additionally, the lack of a centralized platform makes it difficult for users to find reliable information about barbers and their services. This problem is further exacerbated by the inconsistency in information across different platforms which also contributes to the users’ frustrations.",
+    goal: "The goal of Bladelink is to simplify and optimize the process of finding and booking a barber or stylist, eliminating the need for users to use multiple platforms for different purposes and ensuring that the information on the platform is accurate and consistent and streamlining the process to make it convenient.",
+    research: "User interviews and market research were conducted across multiple platforms that serve this purpose. The research showed that the target audience faced the inconvenience of using multiple platforms for different purposes, only to get unsatisfactory results. The information on these platforms didn't correspond, making the process of connecting with a barber more challenging. Based on this research, the team identified the need for a platform that consolidates various features and streamlines the process for choosing a style, choosing a barber in your area, and signing up for an appointment.",
+    ideation: "The goal was to create a simple yet intuitive interface that not only consolidated various features but also optimized the process for choosing a style, choosing a barber in your area, and signing up for an appointment. After brainstorming for ideas, it was decided that a mobile design approach would be the best method of implementation due to the high percentage of users who preferred to have a mobile platform.  Below is a user journey map depicting how a user would navigate the app.",
+    prototyping: "Below are 3 wireframes that served as an essential tool in designing the structure of the app",
+    testing: "User testing sessions were conducted to gather feedback on the initial prototype. Additionally, a user who is a stylist mentioned that the platform's appointment process made it easier for them to manage their appointments and connect with customers. A streamlined approach from choosing a hairstyle to checking in was shown to be considerably more efficient. The gradient theme and contrasting color of the iconography received positive feedback since it enhanced the visibility of the interface which helped in the accessibility of different parts in the platform with ease. ",
+    finalDesign: "The goal for the final prototype was to utilize the feedback we got from our testing phase and expand upon it in the app. One such thing we expanded on was the color scheme to further enhance visibility while keeping the same theme which the user's preferred.",
+    reflection: "Currently, the possibility of adding a direct message feature to provide users with better outreach is being explored. The product’s services are being explored to expand beyond barbers to other cosmetic services. Implementing payment systems using platforms like Venmo, Zelle, and CashApp is also under consideration to push for an even more streamlined approach to the sign-up process. Additionally a web-platform is currently being designed to serve as a flexible way for both mobile and desktop users to use Bladelink and its features."
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <h2 className="font-bold text-lg">{headings.problem}</h2>
+      <br />
+      <p>{bodyText.problem}</p>
+      <br />
+      <div className="flex justify-center">
+        <div className="w-full lg:w-1/2">
           <Image src={bladelinkCompetitiveAudit} alt="Bladelink Comp Audit" width={450} height={600} />
         </div>
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.goal}</h2>
-        <br />
-        <p>{bodyText.goal}</p>
-        <br />
-        <br />
-  
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.research}</h2>
-        <br />
-        <p>{bodyText.research}</p>
-        <br />
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ display:"flex", justifyContent:"center"}}>
-            <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
-          </div>
-          <br></br>
+      </div>
+      <h2 className="font-bold text-lg">{headings.goal}</h2>
+      <br />
+      <p>{bodyText.goal}</p>
+      <br />
+      <br />
 
-          <div style={{ display:"flex", justifyContent:"center"}}>
-            <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
-          </div>
-          <br></br>
-        </div>
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.ideation}</h2>
-        <br />
-        <p>{bodyText.ideation}</p>
-        <br />
-        <Image src={userFlow} alt="User Flow" width={720} height={480} />
-  
-  
-  
-        <br />
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.prototyping}</h2>
-        <br />
-        <p>{bodyText.prototyping}</p>
-        <br />
-        <div style={{ display: "flex", justifyContent: "center",gap:"35px", margin: '0 auto'}}>
-          <br></br>
-          <Image src={wireframe1} alt={`Wireframe 1 for Bladelink`} width={180} height={120} />
-          <Image src={wireframe2} alt={`Wireframe 2 for Bladelink`} width={180} height={120} />
-          <Image src={wireframe3} alt={`Wireframe 3 for Bladelink`} width={180} height={120} />
+      <h2 className="font-bold text-lg">{headings.research}</h2>
+      <br />
+      <p>{bodyText.research}</p>
+      <br />
+      <div className="flex flex-col lg:flex-row justify-center lg:gap-20">
+        <div className="lg:w-1/2">
+          <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
         </div>
         <br />
-        <div>
-          <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.testing}</h2>
-          <br />
-          <p>{bodyText.testing}</p>
-          <div style={{ display: "flex", justifyContent: "space-between", margin: '0 auto' }}>
-            <Image src={prototype1} alt={`Prototype 1 for Bladelink`} width={180} height={120} />
-            <Image src={prototype2} alt={`Prototype 2 for Bladelink`} width={180} height={120} />
-            <Image src={prototype3} alt={`Prototype 3 for Bladelink`} width={180} height={120} />
-          </div>
-          <br />
+        <div className="lg:w-1/2">
+          <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
         </div>
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.finalDesign}</h2>
-        <br />
-        <p>{bodyText.finalDesign}</p>
-        <div style={{ display:"flex", justifyContent:"center"}}>
-          <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} />
-        </div>
-        <br />
-        <h2 style={{ fontWeight: "bold", fontSize: "18px" }}>{headings.reflection}</h2>
-        <p>{bodyText.reflection}</p>
         <br />
       </div>
-    );
-  };
-  
-  export default BladelinkPage;
+      <h2 className="font-bold text-lg">{headings.ideation}</h2>
+      <br />
+      <p>{bodyText.ideation}</p>
+      <br />
+      <Image src={userFlow} alt="User Flow" width={720} height={480} />
+
+      <br />
+      <h2 className="font-bold text-lg">{headings.prototyping}</h2>
+      <br />
+      <p>{bodyText.prototyping}</p>
+      <br />
+      <div className="flex justify-center lg:gap-20">
+        <Image src={wireframe1} alt={`Wireframe 1 for Bladelink`} width={140} height={80} />
+        <Image src={wireframe2} alt={`Wireframe 2 for Bladelink`} width={140} height={80} />
+        <Image src={wireframe3} alt={`Wireframe 3 for Bladelink`} width={140} height={80} />
+      </div>
+      <br />
+      <div>
+        <h2 className="font-bold text-lg">{headings.testing}</h2>
+        <br />
+        <p>{bodyText.testing}</p>
+        <div className="flex justify-center lg:gap-20">
+          <Image src={prototype1} alt={`Prototype 1 for Bladelink`} width={140} height={80} />
+          <Image src={prototype2} alt={`Prototype 2 for Bladelink`} width={140} height={80} />
+          <Image src={prototype3} alt={`Prototype 3 for Bladelink`} width={140} height={80} />
+        </div>
+        <br />
+      </div>
+      <h2 className="font-bold text-lg">{headings.finalDesign}</h2>
+      <br />
+      <p>{bodyText.finalDesign}</p>
+      <div className="flex justify-center">
+        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} />
+      </div>
+      <br />
+      <h2 className="font-bold text-lg">{headings.reflection}</h2>
+      <p>{bodyText.reflection}</p>
+      <br />
+    </div>
+  );
+};
+
+export default BladelinkPage;
