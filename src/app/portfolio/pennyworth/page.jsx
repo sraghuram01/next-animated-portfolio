@@ -48,10 +48,12 @@ const PennyworthPage = () => {
       <p>{bodyText.problem}</p>
       <br />
       <div className="flex justify-center">
-        <div className="w-full lg:w-1/2">
-          <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" width={550} height={700} />
+        {/* Adjusting the width dynamically based on screen size */}
+        <div className="w-full lg:w-3/4 xl:w-1/2">
+          <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1200} height={800} />
         </div>
       </div>
+
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
       <p>{bodyText.goal}</p>

@@ -90,12 +90,13 @@ const Navbar = () => {
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://github.com/sraghuram01">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>
+        <a href="https://linkedin.com/in/varun-raghuram-2a7822201" target="_blank" rel="noopener noreferrer">
+  <Image src="/linkedin.png" alt="" width={24} height={24} />
+</a>
+
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
