@@ -31,10 +31,10 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/profilepic.png"
               alt=""
-              width={112}
-              height={112}
+              width={300}
+              height={300}
               className="w-28 h-28 rounded-full object-cover"
             />
             {/* BIOGRAPHY TITLE */}
@@ -44,8 +44,8 @@ const AboutPage = () => {
              
 I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration in crafting user-centered solutions that tackle complex challenges. With a keen eye for detail and a drive for innovation, I thrive on creating intuitive and visually appealing designs that enhance user experiences. Beyond design, I'm constantly exploring new avenues for creativity and growth, whether it's through experimenting with different mediums or immersing myself in diverse cultural experiences. 
             </p>
-            <h1 className=" font-bold text-white text-2xl">Education</h1>
-            <h2 className=" font-semibold text-white text-xl">University of Texas at Dallas</h2>
+            <h1 className=" font-bold text-black text-2xl">Education</h1>
+            <h2 className=" font-semibold text-black text-xl">University of Texas at Dallas</h2>
             {/* Degree */}
             <span className="italic">
             B.S. Cognitive Science (Psychology and Human Computer Interaction)

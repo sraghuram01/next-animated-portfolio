@@ -41,11 +41,12 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.problem}</p>
       <br />
+      
       <div className="flex justify-center">
-        <div className="w-full lg:w-1/2">
-          <Image src={bladelinkCompetitiveAudit} alt="Bladelink Comp Audit" width={450} height={600} />
-        </div>
+       
+        <Image src={bladelinkCompetitiveAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
       </div>
+    <br></br>
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
       <p>{bodyText.goal}</p>

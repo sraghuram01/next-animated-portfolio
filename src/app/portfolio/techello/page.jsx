@@ -41,11 +41,12 @@ const TechelloPage = () => {
       <br />
       <p>{bodyText.problem}</p>
       <br />
+     
       <div className="flex justify-center">
-        <div className="w-full lg:w-1/2">
-          <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" width={450} height={600} />
-        </div>
-      </div>
+       
+       <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" layout="responsive" width={1872} height={97} />
+     </div>
+      
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
       <p>{bodyText.goal}</p>
@@ -74,11 +75,12 @@ const TechelloPage = () => {
       <br />
       <h2 className="font-bold text-lg">{headings.prototyping}</h2>
       <br />
+      <p>{bodyText.prototyping}</p>
       <br />
       <div className="flex justify-center lg:gap-20">
-        <Image src={wireframe1} alt={`Wireframe 1 for Techello`} width={140} height={80} />
-        <Image src={wireframe2} alt={`Wireframe 2 for Techello`} width={140} height={80} />
-        <Image src={wireframe3} alt={`Wireframe 3 for Techello`} width={140} height={80} />
+        <Image src={wireframe1} alt={`Wireframe 1 for Techello`} width={130} height={70} />
+        <Image src={wireframe2} alt={`Wireframe 2 for Techello`} width={130} height={70} />
+        <Image src={wireframe3} alt={`Wireframe 3 for Techello`} width={130} height={70} />
       </div>
       <br />
       <div>
@@ -86,9 +88,9 @@ const TechelloPage = () => {
         <br />
         <p>{bodyText.testing}</p>
         <div className="flex justify-center lg:gap-20">
-          <Image src={prototype1} alt={`Prototype 1 for Techello`} width={140} height={80} />
-          <Image src={prototype2} alt={`Prototype 2 for Techello`} width={140} height={80} />
-          <Image src={prototype3} alt={`Prototype 3 for Techello`} width={140} height={80} />
+          <Image src={prototype1} alt={`Prototype 1 for Techello`} width={130} height={70} />
+          <Image src={prototype2} alt={`Prototype 2 for Techello`} width={130} height={70} />
+          <Image src={prototype3} alt={`Prototype 3 for Techello`} width={130} height={70} />
         </div>
         <br />
       </div>

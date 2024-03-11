@@ -10,11 +10,11 @@ import wireframe3 from '../../../../public/PennyworthWireframe3.png';
 import prototype1 from '../../../../public/PennyworthPrototype1.png';
 import prototype2 from '../../../../public/PennyworthPrototype2.png';
 import prototype3 from '../../../../public/PennyworthPrototype3.png';
-import mockup1 from '../../../../public/mockup1.png';
 import mockup2 from '../../../../public/mockup2.png';
 import mockup3 from '../../../../public/mockup3.png';
 import mockup4 from '../../../../public/mockup4.png';
 import pennyworthGif from '../../../../public/PennyworthMobile.gif';
+
 
 const PennyworthPage = () => {
   const headings = {
@@ -48,10 +48,8 @@ const PennyworthPage = () => {
       <p>{bodyText.problem}</p>
       <br />
       <div className="flex justify-center">
-        {/* Adjusting the width dynamically based on screen size */}
-        <div className="w-full lg:w-3/4 xl:w-1/2">
-          <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1200} height={800} />
-        </div>
+       
+        <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
       </div>
 
       <h2 className="font-bold text-lg">{headings.goal}</h2>
@@ -126,6 +124,7 @@ const PennyworthPage = () => {
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
       <p>{bodyText.reflection}</p>
       <br />
+      
     </div>
   );
 };
