@@ -38,11 +38,11 @@ const ContactPage = () => {
           </motion.div>
         </div>
         {/* EMAIL DISPLAY */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-7 justify-center p-24">
-          <span>If you want to contact me, please send an email to:</span>
-          <div className="flex items-center">
+        <div className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-7 justify-center p-8 lg:p-24">
+          <span className="text-center">If you want to contact me, please send an email to:</span>
+          <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-start">
             <a href={`mailto:${emailAddress}`} className="text-black font-semibold">{emailAddress}</a>
-            <button className="ml-2 bg-black rounded px-2 py-1 text-white font-semibold" onClick={copyToClipboard}>
+            <button className="lg:ml-2 mt-2 lg:mt-0 bg-black rounded px-2 py-1 text-white font-semibold" onClick={copyToClipboard}>
               {copied ? "Copied!" : "Copy"}
             </button>
           </div>
