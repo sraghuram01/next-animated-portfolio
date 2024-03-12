@@ -36,5 +36,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Ignore specific file
-public/resume/varunResume.pdf
+
