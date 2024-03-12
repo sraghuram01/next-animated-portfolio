@@ -36,7 +36,7 @@ const BladelinkPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+    <div className="min-h-screen bg-gradient-to-b from-orange-300 to-red-300 text-black px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
       <h2 className="font-bold text-lg">{headings.problem}</h2>
       <br />
       <p>{bodyText.problem}</p>

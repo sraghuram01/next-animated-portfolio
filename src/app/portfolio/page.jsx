@@ -102,7 +102,7 @@ const PortfolioPage = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Front-end Developer and UI Designer
+                UX Researcher and UI Designer
               </textPath>
             </text>
           </motion.svg>

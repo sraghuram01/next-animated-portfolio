@@ -16,7 +16,7 @@ const TransitionProvider = ({ children }) => {
         key={pathName}
         className="w-screen min-h-screen max-h-screen"
         style={{
-          background: 'linear-gradient(to bottom, #b7094c,#a01a58,#892b64, #723c70, #5c4d7d, #455e89,#2e6f95, #1780a1,#0091ad )',
+          background: 'linear-gradient(to bottom, #F9B16E,#F9A971,#F8A174, #F89977, #F7907A, #F7887D,#F7887D, #F68080)',
         }}
       >
         <motion.div
