@@ -119,7 +119,7 @@ const PennyworthPage = () => {
       <br></br>
       <br></br>
       <div className="flex justify-center">
-        <Image src={pennyworthGif} alt="Pennyworth Gif" width={180} height={120} />
+        <Image src={pennyworthGif} alt="Pennyworth Gif" width={180} height={120} optimized />
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
