@@ -1,14 +1,10 @@
 // next.config.js
 /** @type {import('next').NextConfig} */
-// next.config.js
-// next.config.js
 const nextConfig = {
   images: {
-    domains: ['vraghuram.com'], // Add your domain from Vercel
+    // Use the default loader to handle images from the /public directory
     loader: 'default',
   },
 };
 
-
-
-export default nextConfig;
+module.exports = nextConfig;
