@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // Use the default loader to handle images from the /public directory
     loader: 'default',
+    domains: ['your-domain.com'], // Replace 'your-domain.com' with your actual domain
   },
 };
 
 module.exports = nextConfig;
-

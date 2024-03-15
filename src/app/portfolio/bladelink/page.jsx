@@ -1,16 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
-import bladelinkCompetitiveAudit from "/BladelinkCompetitiveAudit.png";
-import userPersona1 from '/BladelinkUserPersona1.png';
-import userPersona2 from '/BladelinkUserPersona2.png';
-import userFlow from '/BladelinkUserFlow.png';
-import wireframe1 from '/BladelinkWireframe1.png';
-import wireframe2 from '/BladelinkWireframe2.png';
-import wireframe3 from '/BladelinkWireframe3.png';
-import prototype1 from '/BladelinkPrototype1.png';
-import prototype2 from '/BladelinkPrototype2.png';
-import prototype3 from '/BladelinkPrototype3.png';
-import bladelinkGif from '/BladelinkMobile.gif';
+import bladelinkCompetitiveAudit from '../../../../public/BladelinkCompetitiveAudit.png';
+import userPersona1 from '../../../../public/BladelinkUserPersona1.png';
+import userPersona2 from '../../../../public/BladelinkUserPersona2.png';
+import userFlow from '../../../../public/BladelinkUserFlow.png';
+import wireframe1 from '../../../../public/BladelinkWireframe1.png';
+import wireframe2 from '../../../../public/BladelinkWireframe2.png';
+import wireframe3 from '../../../../public/BladelinkWireframe3.png';
+import prototype1 from '../../../../public/BladelinkPrototype1.png';
+import prototype2 from '../../../../public/BladelinkPrototype2.png';
+import prototype3 from '../../../../public/BladelinkPrototype3.png';
+import bladelinkGif from '../../../../public/BladelinkMobile.gif';
+
 
 const BladelinkPage = () => {
   const headings = {

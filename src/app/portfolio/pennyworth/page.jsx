@@ -1,19 +1,20 @@
 import React from 'react';
 import Image from 'next/image';
-import pennyWorthCompAudit from '/PennyworthCompetitiveAudit.png';
-import userPersona1 from '/PennyworthUserPersona1.png';
-import userPersona2 from '/PennyworthUserPersona2.png';
-import userFlow from '/PennyworthUserFlow.png';
-import wireframe1 from '/PennyworthWireframe1.png';
-import wireframe2 from '/PennyworthWireframe2.png';
-import wireframe3 from '/PennyworthWireframe3.png';
-import prototype1 from '/PennyworthPrototype1.png';
-import prototype2 from '/PennyworthPrototype2.png';
-import prototype3 from '/PennyworthPrototype3.png';
-import mockup2 from '/mockup2.png';
-import mockup3 from '/mockup3.png';
-import mockup4 from '/mockup4.png';
-import pennyworthGif from '/PennyworthMobile.gif';
+import pennyWorthCompAudit from '../../../../public/PennyworthCompetitiveAudit.png';
+import userPersona1 from '../../../../public/PennyworthUserPersona1.png';
+import userPersona2 from '../../../../public/PennyworthUserPersona2.png';
+import userFlow from '../../../../public/PennyworthUserFlow.png';
+import wireframe1 from '../../../../public/PennyworthWireframe1.png';
+import wireframe2 from '../../../../public/PennyworthWireframe2.png';
+import wireframe3 from '../../../../public/PennyworthWireframe3.png';
+import prototype1 from '../../../../public/PennyworthPrototype1.png';
+import prototype2 from '../../../../public/PennyworthPrototype2.png';
+import prototype3 from '../../../../public/PennyworthPrototype3.png';
+import mockup2 from '../../../../public/mockup2.png';
+import mockup3 from '../../../../public/mockup3.png';
+import mockup4 from '../../../../public/mockup4.png';
+import pennyworthGif from '../../../../public/PennyworthMobile.gif';
+
 
 
 
