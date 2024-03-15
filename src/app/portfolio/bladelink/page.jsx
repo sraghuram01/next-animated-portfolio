@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import bladelinkCompetitiveAudit from "../../../../public/BladelinkCompetitiveAudit.png";
-import userPersona1 from '../../../../public/BladelinkUserPersona1.png';
-import userPersona2 from '../../../../public/BladelinkUserPersona2.png';
-import userFlow from '../../../../public/BladelinkUserFlow.png';
-import wireframe1 from '../../../../public/BladelinkWireframe1.png';
-import wireframe2 from '../../../../public/BladelinkWireframe2.png';
-import wireframe3 from '../../../../public/BladelinkWireframe3.png';
-import prototype1 from '../../../../public/BladelinkPrototype1.png';
-import prototype2 from '../../../../public/BladelinkPrototype2.png';
-import prototype3 from '../../../../public/BladelinkPrototype3.png';
-import bladelinkGif from '../../../../public/BladelinkMobile.gif';
+import bladelinkCompetitiveAudit from "@public/BladelinkCompetitiveAudit.png";
+import userPersona1 from '@public/BladelinkUserPersona1.png';
+import userPersona2 from '@public/BladelinkUserPersona2.png';
+import userFlow from '@public/BladelinkUserFlow.png';
+import wireframe1 from '@public/BladelinkWireframe1.png';
+import wireframe2 from '@public/BladelinkWireframe2.png';
+import wireframe3 from '@public/BladelinkWireframe3.png';
+import prototype1 from '@public/BladelinkPrototype1.png';
+import prototype2 from '@public/BladelinkPrototype2.png';
+import prototype3 from '@public/BladelinkPrototype3.png';
+import bladelinkGif from '@public/BladelinkMobile.gif';
 
 const BladelinkPage = () => {
   const headings = {
@@ -44,7 +44,13 @@ const BladelinkPage = () => {
       
       <div className="flex justify-center">
        
-        <Image src={bladelinkCompetitiveAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
+      <Image
+  src={bladelinkCompetitiveAudit}
+  alt="Pennyworth Comp Audit"
+  layout="responsive"
+  width={1872} // Set to the maximum width the image can occupy
+  height={97} // Set to auto for responsive height
+/>
       </div>
     <br></br>
       <h2 className="font-bold text-lg">{headings.goal}</h2>
@@ -99,7 +105,7 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.finalDesign}</p>
       <div className="flex justify-center">
-        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} unoptimizedoptimized/>
+        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} optimized/>
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>

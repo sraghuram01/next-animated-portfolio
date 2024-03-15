@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import techelloCompetitiveAudit from "../../../../public/TechelloCompetitiveAudit.png";
-import userPersona1 from '../../../../public/TechelloUserPersona1.png';
-import userPersona2 from '../../../../public/TechelloUserPersona2.png';
-import userFlow from '../../../../public/TechelloUserFlow.png';
-import wireframe1 from '../../../../public/TechelloWireframe1.png';
-import wireframe2 from '../../../../public/TechelloWireframe2.png';
-import wireframe3 from '../../../../public/TechelloWireframe3.png';
-import prototype1 from '../../../../public/TechelloPrototype1.png';
-import prototype2 from '../../../../public/TechelloPrototype2.png';
-import prototype3 from '../../../../public/TechelloPrototype3.png';
-import techelloGif from '../../../../public/TechelloMobile.gif';
+import techelloCompetitiveAudit from "@public/TechelloCompetitiveAudit.png";
+import userPersona1 from '@public/TechelloUserPersona1.png';
+import userPersona2 from '@public/TechelloUserPersona2.png';
+import userFlow from '@public/TechelloUserFlow.png';
+import wireframe1 from '@public/TechelloWireframe1.png';
+import wireframe2 from '@public/TechelloWireframe2.png';
+import wireframe3 from '@public/TechelloWireframe3.png';
+import prototype1 from '@public/TechelloPrototype1.png';
+import prototype2 from '@public/TechelloPrototype2.png';
+import prototype3 from '@public/TechelloPrototype3.png';
+import techelloGif from '@public/TechelloMobile.gif';
 
 const TechelloPage = () => {
   const headings = {
