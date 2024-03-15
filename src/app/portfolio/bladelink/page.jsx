@@ -99,7 +99,7 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.finalDesign}</p>
       <div className="flex justify-center">
-        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} optimized/>
+        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} unoptimizedoptimized/>
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
