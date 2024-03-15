@@ -3,7 +3,7 @@ const path = require('path');
 
 // Define aliases for better import paths
 const aliases = {
-  '@public': path.join(__dirname, 'public'),
+  '@public': path.resolve(__dirname, 'public'),
 };
 
 // Export the Next.js configuration
