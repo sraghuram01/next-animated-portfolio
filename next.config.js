@@ -1,13 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
- 
-  images: {
-  
-    loader: 'default',
-  }
-  ,
-
+  // No custom image loader specified, using the default loader
 };
 
 module.exports = nextConfig;
