@@ -1,18 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import techelloCompetitiveAudit from '../../../../public/TechelloCompetitiveAudit.png';
-import userPersona1 from '../../../../public/TechelloUserPersona1.png';
-import userPersona2 from '../../../../public/TechelloUserPersona2.png';
-import userFlow from '../../../../public/TechelloUserFlow.png';
-import wireframe1 from '../../../../public/TechelloWireframe1.png';
-import wireframe2 from '../../../../public/TechelloWireframe2.png';
-import wireframe3 from '../../../../public/TechelloWireframe3.png';
-import prototype1 from '../../../../public/TechelloPrototype1.png';
-import prototype2 from '../../../../public/TechelloPrototype2.png';
-import prototype3 from '../../../../public/TechelloPrototype3.png';
-import techelloGif from '../../../../public/TechelloMobile.gif';
-
-
 
 const TechelloPage = () => {
   const headings = {
@@ -45,9 +32,8 @@ const TechelloPage = () => {
       <br />
      
       <div className="flex justify-center">
-       
-       <Image src={techelloCompetitiveAudit} alt="techello Comp Audit" layout="responsive" width={1872} height={97} />
-     </div>
+        <Image src="/TechelloCompetitiveAudit.png" alt="Techello Comp Audit" layout="responsive" width={1872} height={97} />
+      </div>
       
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
@@ -61,10 +47,10 @@ const TechelloPage = () => {
       <br />
       <div className="flex flex-col lg:flex-row justify-center lg:gap-20">
         <div className="lg:w-1/2">
-          <Image src={userPersona1} alt={`User Persona 1 for Techello`} width={450} height={300} />
+          <Image src="/TechelloUserPersona1.png" alt={`User Persona 1 for Techello`} width={450} height={300} />
         </div>
         <div className="lg:w-1/2">
-          <Image src={userPersona2} alt={`User Persona 2 for Techello`} width={450} height={300} />
+          <Image src="/TechelloUserPersona2.png" alt={`User Persona 2 for Techello`} width={450} height={300} />
         </div>
         <br />
       </div>
@@ -72,7 +58,7 @@ const TechelloPage = () => {
       <br />
       <p>{bodyText.ideation}</p>
       <br />
-      <Image src={userFlow} alt="User Flow" width={720} height={480} />
+      <Image src="/TechelloUserFlow.png" alt="User Flow" width={720} height={480} />
 
       <br />
       <h2 className="font-bold text-lg">{headings.prototyping}</h2>
@@ -80,9 +66,9 @@ const TechelloPage = () => {
       <p>{bodyText.prototyping}</p>
       <br />
       <div className="flex justify-center lg:gap-20">
-        <Image src={wireframe1} alt={`Wireframe 1 for Techello`} width={130} height={70} />
-        <Image src={wireframe2} alt={`Wireframe 2 for Techello`} width={130} height={70} />
-        <Image src={wireframe3} alt={`Wireframe 3 for Techello`} width={130} height={70} />
+        <Image src="/TechelloWireframe1.png" alt={`Wireframe 1 for Techello`} width={130} height={70} />
+        <Image src="/TechelloWireframe2.png" alt={`Wireframe 2 for Techello`} width={130} height={70} />
+        <Image src="/TechelloWireframe3.png" alt={`Wireframe 3 for Techello`} width={130} height={70} />
       </div>
       <br />
       <div>
@@ -90,9 +76,9 @@ const TechelloPage = () => {
         <br />
         <p>{bodyText.testing}</p>
         <div className="flex justify-center lg:gap-20">
-          <Image src={prototype1} alt={`Prototype 1 for Techello`} width={130} height={70} />
-          <Image src={prototype2} alt={`Prototype 2 for Techello`} width={130} height={70} />
-          <Image src={prototype3} alt={`Prototype 3 for Techello`} width={130} height={70} />
+          <Image src="/TechelloPrototype1.png" alt={`Prototype 1 for Techello`} width={130} height={70} />
+          <Image src="/TechelloPrototype2.png" alt={`Prototype 2 for Techello`} width={130} height={70} />
+          <Image src="/TechelloPrototype3.png" alt={`Prototype 3 for Techello`} width={130} height={70} />
         </div>
         <br />
       </div>
@@ -100,7 +86,7 @@ const TechelloPage = () => {
       <br />
       <p>{bodyText.finalDesign}</p>
       <div className="flex justify-center">
-        <Image src={techelloGif} alt="Techello Gif" width={180} height={120} optimized/>
+        <Image src="/TechelloMobile.gif" alt="Techello Gif" width={180} height={120} optimized />
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>

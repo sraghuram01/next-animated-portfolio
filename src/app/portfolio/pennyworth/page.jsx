@@ -1,21 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import pennyWorthCompAudit from '../../../../public/PennyworthCompetitiveAudit.png';
-import userPersona1 from '../../../../public/PennyworthUserPersona1.png';
-import userPersona2 from '../../../../public/PennyworthUserPersona2.png';
-import userFlow from '../../../../public/PennyworthUserFlow.png';
-import wireframe1 from '../../../../public/PennyworthWireframe1.png';
-import wireframe2 from '../../../../public/PennyworthWireframe2.png';
-import wireframe3 from '../../../../public/PennyworthWireframe3.png';
-import prototype1 from '../../../../public/PennyworthPrototype1.png';
-import prototype2 from '../../../../public/PennyworthPrototype2.png';
-import prototype3 from '../../../../public/PennyworthPrototype3.png';
-import mockup2 from '../../../../public/mockup2.png';
-import mockup3 from '../../../../public/mockup3.png';
-import mockup4 from '../../../../public/mockup4.png';
-import pennyworthGif from '../../../../public/PennyworthMobile.gif';
-
-
 
 
 const PennyworthPage = () => {
@@ -51,8 +35,7 @@ const PennyworthPage = () => {
       <p>{bodyText.problem}</p>
       <br />
       <div className="flex justify-center">
-       
-        <Image src={pennyWorthCompAudit} alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
+        <Image src="/PennyworthCompetitiveAudit.png" alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
       </div>
 
       <h2 className="font-bold text-lg">{headings.goal}</h2>
@@ -67,11 +50,11 @@ const PennyworthPage = () => {
       <br />
       <div className="flex flex-col lg:flex-row justify-center lg:gap-20">
         <div className="lg:w-1/2">
-          <Image src={userPersona1} alt={`User Persona 1 for Pennyworth`} width={450} height={300} />
+          <Image src="/PennyworthUserPersona1.png" alt={`User Persona 1 for Pennyworth`} width={450} height={300} />
         </div>
         <br />
         <div className="lg:w-1/2">
-          <Image src={userPersona2} alt={`User Persona 2 for Pennyworth`} width={450} height={300} />
+          <Image src="/PennyworthUserPersona2.png" alt={`User Persona 2 for Pennyworth`} width={450} height={300} />
         </div>
         <br />
       </div>
@@ -80,7 +63,7 @@ const PennyworthPage = () => {
       <p>{bodyText.ideation}</p>
       <br />
       <div className="flex justify-center">
-        <Image src={userFlow} alt="User Flow" width={720} height={480} />
+        <Image src="/PennyworthUserFlow.png" alt="User Flow" width={720} height={480} />
       </div>
 
       <br />
@@ -89,9 +72,9 @@ const PennyworthPage = () => {
       <p>{bodyText.prototyping}</p>
       <br />
       <div className="flex justify-center lg:gap-20">
-        <Image src={wireframe1} alt={`Wireframe 1 for Pennyworth`} width={140} height={80} />
-        <Image src={wireframe2} alt={`Wireframe 2 for Pennyworth`} width={140} height={80} />
-        <Image src={wireframe3} alt={`Wireframe 3 for Pennyworth`} width={140} height={80} />
+        <Image src="/PennyworthWireframe1.png" alt={`Wireframe 1 for Pennyworth`} width={140} height={80} />
+        <Image src="/PennyworthWireframe2.png" alt={`Wireframe 2 for Pennyworth`} width={140} height={80} />
+        <Image src="/PennyworthWireframe3.png" alt={`Wireframe 3 for Pennyworth`} width={140} height={80} />
       </div>
       <br />
       <div>
@@ -99,9 +82,9 @@ const PennyworthPage = () => {
         <br />
         <p>{bodyText.testingStage1}</p>
         <div className="flex justify-center lg:gap-20">
-          <Image src={prototype1} alt={`Prototype 1 for Pennyworth`} width={140} height={80} />
-          <Image src={prototype2} alt={`Prototype 2 for Pennyworth`} width={140} height={80} />
-          <Image src={prototype3} alt={`Prototype 3 for Pennyworth`} width={140} height={80} />
+          <Image src="/PennyworthPrototype1.png" alt={`Prototype 1 for Pennyworth`} width={140} height={80} />
+          <Image src="/PennyworthPrototype2.png" alt={`Prototype 2 for Pennyworth`} width={140} height={80} />
+          <Image src="/PennyworthPrototype3.png" alt={`Prototype 3 for Pennyworth`} width={140} height={80} />
         </div>
         <br />
         <h2 className="font-bold text-lg">{headings.testingStage2}</h2>
@@ -109,9 +92,9 @@ const PennyworthPage = () => {
         <p>{bodyText.testingStage2}</p>
         <br />
         <div className="flex justify-center lg:gap-20">
-          <Image src={mockup2} alt={`Mockup 2 for Pennyworth`} width={140} height={80} />
-          <Image src={mockup3} alt={`Mockup 3 for Pennyworth`} width={140} height={80} />
-          <Image src={mockup4} alt={`Mockup 4 for Pennyworth`} width={140} height={80} />
+          <Image src="/mockup2.png" alt={`Mockup 2 for Pennyworth`} width={140} height={80} />
+          <Image src="/mockup3.png" alt={`Mockup 3 for Pennyworth`} width={140} height={80} />
+          <Image src="/mockup4.png" alt={`Mockup 4 for Pennyworth`} width={140} height={80} />
         </div>
         <br />
       </div>
@@ -121,7 +104,7 @@ const PennyworthPage = () => {
       <br></br>
       <br></br>
       <div className="flex justify-center">
-        <Image src={pennyworthGif} alt="Pennyworth Gif" width={180} height={120} optimized />
+        <Image src="/PennyworthMobile.gif" alt="Pennyworth Gif" width={180} height={120} optimized />
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
@@ -131,5 +114,6 @@ const PennyworthPage = () => {
     </div>
   );
 };
+
 
 export default PennyworthPage;

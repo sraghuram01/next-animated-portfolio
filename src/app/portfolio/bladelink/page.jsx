@@ -1,17 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import bladelinkCompetitiveAudit from '../../../../public/BladelinkCompetitiveAudit.png';
-import userPersona1 from '../../../../public/BladelinkUserPersona1.png';
-import userPersona2 from '../../../../public/BladelinkUserPersona2.png';
-import userFlow from '../../../../public/BladelinkUserFlow.png';
-import wireframe1 from '../../../../public/BladelinkWireframe1.png';
-import wireframe2 from '../../../../public/BladelinkWireframe2.png';
-import wireframe3 from '../../../../public/BladelinkWireframe3.png';
-import prototype1 from '../../../../public/BladelinkPrototype1.png';
-import prototype2 from '../../../../public/BladelinkPrototype2.png';
-import prototype3 from '../../../../public/BladelinkPrototype3.png';
-import bladelinkGif from '../../../../public/BladelinkMobile.gif';
-
 
 const BladelinkPage = () => {
   const headings = {
@@ -42,35 +30,32 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.problem}</p>
       <br />
-      
       <div className="flex justify-center">
-       
-      <Image
-  src={bladelinkCompetitiveAudit}
-  alt="Pennyworth Comp Audit"
-  layout="responsive"
-  width={1872} // Set to the maximum width the image can occupy
-  height={97} // Set to auto for responsive height
-/>
+        <Image
+          src="/BladelinkCompetitiveAudit.png"
+          alt="Pennyworth Comp Audit"
+          layout="responsive"
+          width={1872}
+          height={97}
+        />
       </div>
-    <br></br>
+      <br />
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
       <p>{bodyText.goal}</p>
       <br />
       <br />
-
       <h2 className="font-bold text-lg">{headings.research}</h2>
       <br />
       <p>{bodyText.research}</p>
       <br />
       <div className="flex flex-col lg:flex-row justify-center lg:gap-20">
         <div className="lg:w-1/2">
-          <Image src={userPersona1} alt={`User Persona 1 for Bladelink`} width={450} height={300} />
+          <Image src="/BladelinkUserPersona1.png" alt={`User Persona 1 for Bladelink`} width={450} height={300} />
         </div>
         <br />
         <div className="lg:w-1/2">
-          <Image src={userPersona2} alt={`User Persona 2 for Bladelink`} width={450} height={300} />
+          <Image src="/BladelinkUserPersona2.png" alt={`User Persona 2 for Bladelink`} width={450} height={300} />
         </div>
         <br />
       </div>
@@ -78,17 +63,16 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.ideation}</p>
       <br />
-      <Image src={userFlow} alt="User Flow" width={720} height={480} />
-
+      <Image src="/BladelinkUserFlow.png" alt="User Flow" width={720} height={480} />
       <br />
       <h2 className="font-bold text-lg">{headings.prototyping}</h2>
       <br />
       <p>{bodyText.prototyping}</p>
       <br />
       <div className="flex justify-center lg:gap-20">
-        <Image src={wireframe1} alt={`Wireframe 1 for Bladelink`} width={140} height={80} />
-        <Image src={wireframe2} alt={`Wireframe 2 for Bladelink`} width={140} height={80} />
-        <Image src={wireframe3} alt={`Wireframe 3 for Bladelink`} width={140} height={80} />
+        <Image src="/BladelinkWireframe1.png" alt={`Wireframe 1 for Bladelink`} width={140} height={80} />
+        <Image src="/BladelinkWireframe2.png" alt={`Wireframe 2 for Bladelink`} width={140} height={80} />
+        <Image src="/BladelinkWireframe3.png" alt={`Wireframe 3 for Bladelink`} width={140} height={80} />
       </div>
       <br />
       <div>
@@ -96,9 +80,9 @@ const BladelinkPage = () => {
         <br />
         <p>{bodyText.testing}</p>
         <div className="flex justify-center lg:gap-20">
-          <Image src={prototype1} alt={`Prototype 1 for Bladelink`} width={140} height={80} />
-          <Image src={prototype2} alt={`Prototype 2 for Bladelink`} width={140} height={80} />
-          <Image src={prototype3} alt={`Prototype 3 for Bladelink`} width={140} height={80} />
+          <Image src="/BladelinkPrototype1.png" alt={`Prototype 1 for Bladelink`} width={140} height={80} />
+          <Image src="/BladelinkPrototype2.png" alt={`Prototype 2 for Bladelink`} width={140} height={80} />
+          <Image src="/BladelinkPrototype3.png" alt={`Prototype 3 for Bladelink`} width={140} height={80} />
         </div>
         <br />
       </div>
@@ -106,7 +90,7 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.finalDesign}</p>
       <div className="flex justify-center">
-        <Image src={bladelinkGif} alt="Bladelink Gif" width={180} height={120} optimized/>
+        <Image src="/BladelinkMobile.gif" alt="Bladelink Gif" width={180} height={120} optimized />
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
