@@ -6,12 +6,12 @@ import Link from "next/link";
 const Homepage = () => {
   const handleDownloadCV = () => {
     // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
-    const resumeUrl = '/resume/varunResume.pdf';
+    const resumeUrl = '/resume/resume.pdf';
     
     // Create a hidden anchor element
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'varunResume.pdf'; // Specify the filename for the downloaded file
+    link.download = 'resume.pdf'; // Specify the filename for the downloaded file
     link.style.display = 'none';
     
     // Add the anchor element to the document
