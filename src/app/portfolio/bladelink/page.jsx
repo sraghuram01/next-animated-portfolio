@@ -33,7 +33,7 @@ const BladelinkPage = () => {
       <div className="flex justify-center">
         <Image
           src="/BladelinkCompetitiveAudit.png"
-          alt="Pennyworth Comp Audit"
+          alt="Bladelink Comp Audit"
           layout="responsive"
           width={1872}
           height={97}
@@ -63,7 +63,9 @@ const BladelinkPage = () => {
       <br />
       <p>{bodyText.ideation}</p>
       <br />
-      <Image src="/BladelinkUserFlow.png" alt="User Flow" width={720} height={480} />
+      <div className="flex justify-center">
+        <Image src="/BladelinkUserFlow.png" alt="User Flow" width={720} height={480} />
+      </div>
       <br />
       <h2 className="font-bold text-lg">{headings.prototyping}</h2>
       <br />
