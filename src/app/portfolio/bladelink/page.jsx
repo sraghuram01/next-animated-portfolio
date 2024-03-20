@@ -35,8 +35,8 @@ const BladelinkPage = () => {
           src="/BladelinkCompetitiveAudit.png"
           alt="Bladelink Comp Audit"
           layout="responsive"
-          width={1872}
-          height={97}
+          width={1821}
+          height={215}
         />
       </div>
       <br />
