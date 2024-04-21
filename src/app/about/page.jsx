@@ -38,16 +38,16 @@ const AboutPage = () => {
               className="w-28 h-28 rounded-full object-cover"
             />
             {/* BIOGRAPHY TITLE */}
-            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+            <h1 className="font-bold text-2xl text-white">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className="text-lg">
+            <p className="text-lg  text-white">
              
 I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration in crafting user-centered solutions that tackle complex challenges. With a keen eye for detail and a drive for innovation, I thrive on creating intuitive and visually appealing designs that enhance user experiences. Beyond design, I'm constantly exploring new avenues for creativity and growth, whether it's through experimenting with different mediums or immersing myself in diverse cultural experiences. 
             </p>
-            <h1 className=" font-bold text-black text-2xl">Education</h1>
-            <h2 className=" font-semibold text-black text-xl">University of Texas at Dallas</h2>
+            <h1 className=" font-bold text-white text-2xl">Education</h1>
+            <h2 className=" font-semibold text-white text-xl">University of Texas at Dallas</h2>
             {/* Degree */}
-            <span className="italic">
+            <span className="italic text-white">
             B.S. Cognitive Science (Psychology and Human Computer Interaction)
             </span>
           
@@ -58,7 +58,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
               animate={{ opacity: 1, y: "10px" }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
               viewBox="0 0 24 24"
-              fill="none"
+              fill="white"
               xmlns="http://www.w3.org/2000/svg"
               width={50}
               height={50}
@@ -83,7 +83,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="font-bold text-2xl"
+              className="font-bold text-2xl text-white "
             >
               SKILLS
             </motion.h1>
@@ -168,7 +168,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               transition={{ delay: 0.2 }}
-              className="font-bold text-2xl"
+              className="font-bold text-2xl text-white"
             >
               EXPERIENCE
             </motion.h1>
@@ -187,11 +187,11 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
                     Mentor
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-sm italic text-white">
                     Led a team in the development of an AI-powered application that detects levels of diabetic retinopathy from retina scans.{" "}
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-black text-sm font-semibold">
+                  <div className="p-3 text-white text-sm font-semibold">
                     August 2023 - December 2023
                   </div>
                   {/* JOB COMPANY */}
@@ -229,7 +229,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
                     Mentee 
                   </div>
                   {/* JOB DESC */}
-                  <div className="p-3 text-sm italic">
+                  <div className="p-3 text-sm italic text-white">
                    Developed Hugo AI, an application that detects various respiratory illnesse and patient details from chest x-ray images{" "}
                   </div>
                   {/* JOB DATE */}

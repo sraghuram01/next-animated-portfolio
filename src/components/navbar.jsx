@@ -71,7 +71,7 @@ const Navbar = () => {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden md:flex gap-4 w-1/3 text-white">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
@@ -108,17 +108,17 @@ const Navbar = () => {
           <motion.div
             variants={topVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded origin-left"
+            className="w-10 h-1 bg-white rounded origin-left"
           ></motion.div>
           <motion.div
             variants={centerVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded"
+            className="w-10 h-1 bg-white rounded"
           ></motion.div>
           <motion.div
             variants={bottomVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-black rounded origin-left"
+            className="w-10 h-1 bg-white rounded origin-left"
           ></motion.div>
         </button>
         {/* MENU LIST */}

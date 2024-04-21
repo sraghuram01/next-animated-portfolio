@@ -28,7 +28,7 @@ const PennyworthPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-300 to-red-300 text-black px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
       <br></br>
       <h2 className="font-bold text-lg">{headings.problem}</h2>
       <br />
@@ -37,6 +37,7 @@ const PennyworthPage = () => {
       <div className="flex justify-center">
         <Image src="/PennyworthCompetitiveAudit.png" alt="Pennyworth Comp Audit" layout="responsive" width={1872} height={97} />
       </div>
+      <br></br>
 
       <h2 className="font-bold text-lg">{headings.goal}</h2>
       <br />
@@ -96,6 +97,7 @@ const PennyworthPage = () => {
           <Image src="/mockup3.png" alt={`Mockup 3 for Pennyworth`} width={140} height={80} />
           <Image src="/mockup4.png" alt={`Mockup 4 for Pennyworth`} width={140} height={80} />
         </div>
+        
         <br />
       </div>
       <h2 className="font-bold text-lg">{headings.finalDesign}</h2>
@@ -110,6 +112,8 @@ const PennyworthPage = () => {
       <h2 className="font-bold text-lg">{headings.reflection}</h2>
       <p>{bodyText.reflection}</p>
       <br />
+
+      
       
     </div>
   );
