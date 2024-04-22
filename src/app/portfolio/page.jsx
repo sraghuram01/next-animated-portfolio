@@ -85,7 +85,7 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="min-h-screen min-w-screen w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-black text-white">
+      <div className="min-h-full min-w-screen w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-black text-white">
   <h1 className="lg:text-6xl sm:text-4xl text-white">More projects are in the making</h1>
   <div className="relative">
     <motion.svg
@@ -107,7 +107,7 @@ const PortfolioPage = () => {
       </text>
     </motion.svg>
     <Link href="/contact">
-      <button className="w-30 h-30 md:w-28 md:h-28  absolute top-0 left-0 right-0 bottom-0 m-auto bg-white text-black rounded-full flex items-center justify-center">
+      <button className="w-25 h-25 md:w-20 md:h-20  absolute top-0 left-0 right-0 bottom-0 m-auto bg-white text-black rounded-full flex items-center justify-center">
         Hire Me
       </button>
     </Link>
