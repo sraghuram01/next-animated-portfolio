@@ -8,7 +8,7 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
-    color: "from-green-300 to-orange-300",
+    color: "from-pink-300 to-red-300",
     title: "Pennyworth",
     desc: "An educational personal finance platform",
     img: "/Pennyworth3dMockup.png",
@@ -16,7 +16,7 @@ const items = [
   },
   {
     id: 2,
-    color: "from-yellow-500 to-violet-300",
+    color: "from-red-300 to-orange-300",
     title: "Bladelink",
     desc: "Designed to make the process of signing up for a barber appointment much more convenient",
     img: "/bladelink3dmockup.png",
@@ -24,7 +24,7 @@ const items = [
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
+    color: "from-orange-300 to-yellow-300",
     title: "Techello",
     desc: "A virtual art gallery ",
     img: "/techello3dmockupmobile.png",
@@ -32,7 +32,7 @@ const items = [
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-yellow-300 to-lime-300",
     title: "Hugo AI",
     desc: "AI-Powered Medical Assistant",
     img: "/HUGO_AI.png",
@@ -85,36 +85,34 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="lg:text-8xl sm:text-5xl ">More projects are in the making</h1>
-        <div className="relative">
-          <motion.svg
-            animate={{ rotate: 360 }}
-            transition={{ duration: 8, ease: "linear", repeat: Infinity }}
-            viewBox="0 0 300 300"
-            className="w-64 h-64 md:w-[500px] md:h-[500px] "
-          >
-            <defs>
-              <path
-                id="circlePath"
-                d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
-              />
-            </defs>
-            <text fill="#000">
-              <textPath xlinkHref="#circlePath" className="text-xl">
-                UX Researcher and UI Designer
-              </textPath>
-            </text>
-          </motion.svg>
-          <Link
-            href="/contact"
-           
-          >
-            <button className="w-30 h-30 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"> Hire Me</button>
-            
-          </Link>
-        </div>
-      </div>
+      <div className="min-h-screen min-w-screen w-screen h-screen flex flex-col gap-16 items-center justify-center text-center bg-black text-white">
+  <h1 className="lg:text-6xl sm:text-4xl text-white">More projects are in the making</h1>
+  <div className="relative">
+    <motion.svg
+      animate={{ rotate: 360 }}
+      transition={{ duration: 8, ease: "linear", repeat: Infinity }}
+      viewBox="0 0 300 300"
+      className="w-64 h-64 md:w-[500px] md:h-[500px]"
+    >
+      <defs>
+        <path
+          id="circlePath"
+          d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+        />
+      </defs>
+      <text fill="white">
+        <textPath xlinkHref="#circlePath" className="text-xl">
+          UX Researcher and UI Designer
+        </textPath>
+      </text>
+    </motion.svg>
+    <Link href="/contact">
+      <button className="w-30 h-30 md:w-28 md:h-28  absolute top-0 left-0 right-0 bottom-0 m-auto bg-white text-black rounded-full flex items-center justify-center">
+        Hire Me
+      </button>
+    </Link>
+  </div>
+</div>
     </motion.div>
   );
 };

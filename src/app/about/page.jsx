@@ -165,7 +165,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
           >
             {/* EXPERIENCE TITLE */}
             <motion.h1
-              initial={{ x: "-300px" }}
+              initial={{ x: "-500px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
               transition={{ delay: 0.2 }}
               className="font-bold text-2xl text-white"
