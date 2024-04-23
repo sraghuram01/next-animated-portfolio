@@ -49,8 +49,8 @@ const Homepage = () => {
             src="/puzzle.gif" // Replace with the path to your puzzle.gif file
             alt="Puzzle Animation"
             layout="responsive"
-            width={100} // Adjust the width of the image
-            height={100} // Adjust the height of the image
+            width={90} // Adjust the width of the image
+            height={90} // Adjust the height of the image
           />
         </div>
         {/* TEXT CONTAINER */}
