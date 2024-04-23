@@ -1,20 +1,11 @@
 "use client"
-import {useEffect, useState} from "react";
-import puzzleAnimation from "./puzzle.json";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Lottie from "lottie-react";
+import Image from "next/image";
 
 
 const Homepage = () => {
-const [isAnimationPlaying, setIsAnimationPlaying]=useState(false);
-useEffect(() => {
-  // Start animation when component mounts
-  setIsAnimationPlaying(true);
 
-  // Cleanup function to stop animation when component unmounts
-  return () => setIsAnimationPlaying(false);
-}, []);
 
 
 
@@ -51,14 +42,15 @@ useEffect(() => {
     >
        <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-1/2 lg:w-1/2 relative z-0">
-          {/* Puzzle Animation */}
-          <Lottie
-            loop={true}
-            animationData={puzzleAnimation}
-            autoplay={isAnimationPlaying}
-            height={200}
-            width={200}
+          {/* IMAGE CONTAINER */}
+          <div className="h-1/2 lg:h-1/2 lg:w-1/2 relative z-0">
+          {/* Puzzle GIF */}
+          <Image
+            src="/puzzle.gif" // Replace with the path to your puzzle.gif file
+            alt="Puzzle Animation"
+            layout="responsive"
+            width={100} // Adjust the width of the image
+            height={100} // Adjust the height of the image
           />
         </div>
         {/* TEXT CONTAINER */}
