@@ -1,9 +1,27 @@
 "use client"
-import Image from "next/image";
+import {useEffect, useState} from "react";
+import puzzleAnimation from "./puzzle.json";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Lottie from "lottie-react";
+
 
 const Homepage = () => {
+const [isAnimationPlaying, setIsAnimationPlaying]=useState(false);
+useEffect(() => {
+  // Start animation when component mounts
+  setIsAnimationPlaying(true);
+
+  // Cleanup function to stop animation when component unmounts
+  return () => setIsAnimationPlaying(false);
+}, []);
+
+
+
+
+
+
+
   const handleDownloadCV = () => {
     // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
     const resumeUrl = '/resume/resume.pdf';
@@ -31,10 +49,17 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-1/2 lg:w-1/2 relative z-0">
-         
+          {/* Puzzle Animation */}
+          <Lottie
+            loop={true}
+            animationData={puzzleAnimation}
+            autoplay={isAnimationPlaying}
+            height={200}
+            width={200}
+          />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center z-10">
