@@ -80,7 +80,7 @@ const Navbar = () => {
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
-          className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
+          className="text-sm bg-orange-600 rounded-md p-1 font-semibold flex items-center justify-center"
         >
           <span className="text-white mr-1">Varun</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
@@ -88,16 +88,31 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="https://github.com/sraghuram01">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-        <a href="https://linkedin.com/in/varun-raghuram-2a7822201" target="_blank" rel="noopener noreferrer">
-  <Image src="/linkedin.png" alt="" width={24} height={24} />
-</a>
-
+{/* SOCIAL */}
+<div className="hidden md:flex w-1/3">
+  <Link href="https://github.com/sraghuram01" className="mr-4">
+    <div className="relative flex items-center">
+      <div className="relative flex justify-center items-center">
+        <div className="absolute bg-white rounded-full w-8 h-8 z-10"></div>
+        <Image src="/github.png" alt="" width={20} height={20} className="relative z-20" />
       </div>
+    </div>
+  </Link>
+  <a href="https://linkedin.com/in/varun-raghuram-2a7822201" target="_blank" rel="noopener noreferrer">
+    <div className="relative flex items-center">
+      <div className="relative flex justify-center items-center">
+        <div className="absolute bg-white rounded-full w-8 h-8 z-10"></div>
+        <Image src="/linkedin.png" alt="" width={20} height={20} className="relative z-20" />
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+
+
+
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
         {/* MENU BUTTON */}
