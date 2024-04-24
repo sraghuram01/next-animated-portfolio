@@ -16,19 +16,22 @@ const Homepage = () => {
       transition={{ duration: 1 }}
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-        {/* IMAGE CONTAINER */}
-        <div className="lg:w-1/2 relative z-0">
-          {/* Puzzle GIF */}
-          <Image
-            src="/puzzle.gif" // Replace with the path to your puzzle.gif file
-            alt="Puzzle Animation"
-            layout="responsive"
-            width={200} // Adjust the width of the image
-            height={200} // Adjust the height of the image
-            className="lg:max-w-full"
-            unoptimized // Set max-width to prevent overflow on larger screens
-          />
-        </div>
+  {/* IMAGE CONTAINER */}
+  <div className="lg:w-1/2 relative z-0 flex justify-center"> {/* Updated */}
+    {/* Puzzle GIF */}
+    <div className="w-full md:w-1/3 lg:w-full">
+      <Image
+        src="/puzzle.gif"
+        alt="Puzzle Animation"
+        layout="responsive"
+        width={200}
+        height={200}
+        className="w-full h-auto"
+        unoptimized
+        style={{ maxWidth: "100%" }} // Set maximum width to 100%
+      />
+    </div>
+  </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center z-10 lg:pl-8">
           {/* TITLE */}
