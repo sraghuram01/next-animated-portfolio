@@ -6,6 +6,24 @@ import Link from "next/link";
 const Homepage = () => {
   const handleDownloadCV = () => {
     // Your download CV function
+ 
+      // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
+      const resumeUrl = '/resume/resume.pdf';
+    
+      // Create a hidden anchor element
+      const link = document.createElement('a');
+      link.href = resumeUrl;
+      link.download = 'resume.pdf'; // Specify the filename for the downloaded file
+      link.style.display = 'none';
+      
+      // Add the anchor element to the document
+      document.body.appendChild(link);
+      
+      // Trigger a click on the anchor element
+      link.click();
+      
+      // Remove the anchor element from the document
+      document.body.removeChild(link);
   };
 
   return (
@@ -24,8 +42,8 @@ const Homepage = () => {
         src="/puzzle.gif"
         alt="Puzzle Animation"
         layout="responsive"
-        width={200}
-        height={200}
+        width={180}
+        height={180}
         className="w-full h-auto"
         unoptimized
         style={{ maxWidth: "100%" }} // Set maximum width to 100%
