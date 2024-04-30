@@ -212,7 +212,7 @@ I'm a passionate UI/UX Designer based in Dallas, Texas, where I find inspiration
                    Developed Hugo AI, an application that detects various respiratory illnesse and patient details from chest x-ray images{" "}
                   </div>
                   {/* JOB DATE */}
-                  <div className="p-3 text-black text-sm font-semibold">
+                  <div className="p-3 text-white text-sm font-semibold">
                     Jan 2023-May 2023{" "}
                   </div>
                   {/* JOB COMPANY */}
