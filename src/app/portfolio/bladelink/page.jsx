@@ -52,7 +52,7 @@ const BladelinkPage = () => {
       <br />
       <div className="flex flex-col lg:flex-row justify-center lg:gap-20">
         <div className="lg:w-1/2">
-          <Image src="/BladelinkUserPersona1.png" alt={`User Persona 1 for Bladelink`} width={450} height={300} unoptimized/>
+          <Image src="/BladelinkUserPersona1.png" alt={`User Persona 1 for Bladelink`} width={450} height={300} />
         </div>
         <br />
         <div className="lg:w-1/2">
@@ -65,7 +65,7 @@ const BladelinkPage = () => {
       <p>{bodyText.ideation}</p>
       <br />
       <div className="flex justify-center">
-        <Image src="/BladelinkUserFlow.png" alt="User Flow" width={720} height={480} unoptimized />
+        <Image src="/BladelinkUserFlow.png" alt="User Flow" width={720} height={480} />
       </div>
       <br />
       <h2 className="font-bold text-lg">{headings.prototyping}</h2>
@@ -73,9 +73,9 @@ const BladelinkPage = () => {
       <p>{bodyText.prototyping}</p>
       <br />
       <div className="flex justify-center lg:gap-20">
-        <Image src="/BladelinkWireframe1.png" alt={`Wireframe 1 for Bladelink`} width={140} height={80} unoptimized/>
+        <Image src="/BladelinkWireframe1.png" alt={`Wireframe 1 for Bladelink`} width={140} height={80} />
         <Image src="/BladelinkWireframe2.png" alt={`Wireframe 2 for Bladelink`} width={140} height={80} />
-        <Image src="/BladelinkWireframe3.png" alt={`Wireframe 3 for Bladelink`} width={140} height={80} unoptimized/>
+        <Image src="/BladelinkWireframe3.png" alt={`Wireframe 3 for Bladelink`} width={140} height={80} />
       </div>
       <br />
       <div>
