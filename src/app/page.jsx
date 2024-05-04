@@ -8,8 +8,8 @@ const Homepage = () => {
     // Your download CV function
  
       // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
-      const resumeUrl = '/resume/resume.pdf';
-    
+      const resumeUrl = '/resume.pdf';
+      window.location.href = resumeUrl;
       // Create a hidden anchor element
       const link = document.createElement('a');
       link.href = resumeUrl;
