@@ -9,21 +9,9 @@ const Homepage = () => {
  
       // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
       const resumeUrl = '/resume.pdf';
-      window.location.href = resumeUrl;
+    
       // Create a hidden anchor element
-      const link = document.createElement('a');
-      link.href = resumeUrl;
-      link.download = 'resume.pdf'; // Specify the filename for the downloaded file
-      link.style.display = 'none';
-      
-      // Add the anchor element to the document
-      document.body.appendChild(link);
-      
-      // Trigger a click on the anchor element
-      link.click();
-      
-      // Remove the anchor element from the document
-      document.body.removeChild(link);
+    window.location.href = resumeUrl;
   };
 
   return (
